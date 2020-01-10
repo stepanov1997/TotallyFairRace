@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="TotallyFairRace.View.Pages.InputNicknamePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="SandyBrown">
+    <ScrollViewer>
+        <ScrollViewer.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="../../Assets/menu.jpeg"/>
+        </ScrollViewer.Background>
+        <Grid Margin="35,45,20,19" Height="595">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Text="Totally fair race" FontSize="36" FontFamily="Stencil" TextWrapping="WrapWholeWords" Foreground="#FFC5C5C5" Height="128" VerticalAlignment="Center" TextAlignment="Center" Grid.RowSpan="2"/>
+            <Image x:ConnectionId='2' Source="../../Assets/next.png" Grid.RowSpan="2" Grid.Row="3"                             HorizontalAlignment="Center" VerticalAlignment="Top" Height="104" Width="114" Margin="0,43,0,0"/>
+            <Button x:ConnectionId='3' x:Name="MusicButton" Grid.Row="5" Content="Play music"                      Height="45" Width="170" FontSize="15" Background="#FF786404" FontStyle="Normal" FontWeight="Normal" Foreground="#FFBFBFBF" FontFamily="Stencil" HorizontalAlignment="Center"/>
+            <TextBlock HorizontalAlignment="Center" TextAlignment="Center" Grid.Column="0" Grid.Row="2" TextWrapping="WrapWholeWords" Text="TYPE YOUR NICKNAME" VerticalAlignment="Top" Height="130" Width="1263" FontSize="18" FontFamily="Stencil" FocusVisualPrimaryBrush="White" Foreground="#FFB7A300" Grid.RowSpan="2"/>
+            <TextBox x:ConnectionId='4' x:Name="TextBox" Grid.Row="2" HorizontalAlignment="Center" TextAlignment="Center" VerticalAlignment="Top" Height="31" Width="294" Foreground="#FF786404" BorderBrush="#66000000" FontWeight="ExtraBlack" FontStyle="Normal" Margin="0,53,0,0"/>
+        </Grid>
+    </ScrollViewer>
+</Page>
+

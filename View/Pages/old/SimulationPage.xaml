@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="TotallyFairRace.View.Pages.SimulationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="795" Width="1630">
+
+    <ScrollViewer
+        ZoomMode="Enabled" MaxZoomFactor="10"
+        HorizontalScrollMode="Enabled" VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Visible" >
+        <ScrollViewer.Background>
+            <ImageBrush ImageSource="../../Assets/menu.jpeg"></ImageBrush>
+        </ScrollViewer.Background>
+        <StackPanel x:Name="Panel" Height="1569" Width="2195" Orientation="Vertical" >
+            <StackPanel Height="174" Width="1275" HorizontalAlignment="Left">
+                <TextBlock Text="Totally fair race" Style="{StaticResource TitleTextBlockStyle}" HorizontalAlignment="Center" FontFamily="Stencil" Padding="0,60,0,0" FontSize="72" Height="179" FontWeight="Normal" FontStyle="Normal" Foreground="#FFC5C5C5"/>
+            </StackPanel>
+            <Grid Name="grid" HorizontalAlignment="Left">
+                <Button Name="GObutton" Content="GO!" Margin="505,0,0,-505" Opacity="1" VerticalAlignment="Bottom" Click="Button_ClickAsync" Width="187" Height="52"/>
+            </Grid>
+        </StackPanel>
+    </ScrollViewer>
+</Page>

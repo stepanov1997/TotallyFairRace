@@ -1,0 +1,25 @@
+﻿<UserControl x:ConnectionId='1'
+    x:Class="TotallyFairRace.View.Controls.CarRaceBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:ConnectionId='2' x:Name="GridLayout">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="../../Assets/road.jpg"></ImageBrush>
+        </Grid.Background>
+        <Image x:ConnectionId='3' x:Name="CarImage" HorizontalAlignment="Left" Width="80"                                                 >
+            <Image.Source>
+                <SvgImageSource x:ConnectionId='6' x:Name="SvgImageSource" RasterizePixelHeight="200" RasterizePixelWidth="500" UriSource="../../Assets/CarPics/car.svg"></SvgImageSource>
+            </Image.Source>
+        </Image>
+        <Image x:ConnectionId='4' x:Name ="Semaphore" HorizontalAlignment="Right" VerticalAlignment="Center">
+            <Image.Source>
+                <SvgImageSource x:ConnectionId='5' x:Name="SvgImageSource2" RasterizePixelHeight="600" UriSource="../../Assets/TrafficLights/red.svg"></SvgImageSource>
+            </Image.Source>
+        </Image>
+    </Grid>
+</UserControl>
+

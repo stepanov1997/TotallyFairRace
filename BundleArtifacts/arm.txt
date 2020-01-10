@@ -1,0 +1,2 @@
+MainPackage=C:\Users\stepa\Desktop\Trkanje\bin\ARM\Debug\Trkanje_1.0.0.0_ARM_Debug.appx
+SymbolPackage=C:\Users\stepa\Desktop\Trkanje\obj\ARM\Debug\Symbols\Trkanje_1.0.0.0_ARM_Debug.appxsym

@@ -1,0 +1,16 @@
+﻿<UserControl
+    x:Class="Trkanje.CarRaceBar"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Height="35" Width="1135">
+
+    <Grid HorizontalAlignment="Left" Width="1135">
+        <Grid.Background>
+            <ImageBrush ImageSource="Assets/road.jpg"></ImageBrush>
+        </Grid.Background>
+        <Image x:ConnectionId='2' x:Name="AutoImage" Source="Assets/CarPics/car_black.png" Stretch="Uniform" Margin="0,10,1111,16" HorizontalAlignment="Left"></Image>
+    </Grid>
+</UserControl>
+

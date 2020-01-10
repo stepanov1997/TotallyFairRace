@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Trkanje.MainMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Trkanje"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="SandyBrown">
+    <ScrollViewer>
+        <ScrollViewer.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="Assets/menu.jpeg"/>
+        </ScrollViewer.Background>
+        <Grid Margin="35,45,20,19" Height="595">
+            <TextBlock Text="Totally fair race" TextWrapping="Wrap" FontSize="36" FontFamily="Stencil" Foreground="#FFC5C5C5" RenderTransformOrigin="0.333,0.643" Height="43" Margin="67,41,60,0" VerticalAlignment="Top" TextAlignment="Center"/>
+            <Image x:ConnectionId='2' Source="Assets/next.png"                             RenderTransformOrigin="0.5,0.573" HorizontalAlignment="Center" VerticalAlignment="Center" Height="184" Width="173"/>
+            <Button x:ConnectionId='3' x:Name="MusicButton" Content="Play music"                      Height="45" Width="170" FontSize="15" Background="#FF786404" FontStyle="Normal" FontWeight="Normal" Foreground="#FFBFBFBF" FontFamily="Stencil" Margin="4,0,0,0" VerticalAlignment="Bottom"/>
+        </Grid>
+    </ScrollViewer>
+</Page>
+

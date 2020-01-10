@@ -1,0 +1,53 @@
+﻿<ContentDialog
+    x:Class="TotallyFairRace.View.ContentDialogs.RankListDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TotallyFairRace.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="RANK LIST"
+    CloseButtonText="Close" Height="480">
+
+    <ContentDialog.TitleTemplate>
+        <DataTemplate>
+            <TextBlock Text="RANK LIST" FontFamily="Stencil" HorizontalAlignment="Center" Foreground="White" TextAlignment="Center" Width="500"></TextBlock>
+        </DataTemplate>
+    </ContentDialog.TitleTemplate>
+
+    <ContentDialog.Background>
+        <ImageBrush ImageSource="../../Assets/menu.jpeg"></ImageBrush>
+    </ContentDialog.Background>
+    <ContentDialog.Content>
+        <ScrollViewer VerticalScrollMode="Enabled" VerticalAlignment="Center" Height="200" Width="500" HorizontalAlignment="Left">
+            <Grid x:ConnectionId='3' x:Name="GridView" Width="500">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="20*"></ColumnDefinition>
+                    <ColumnDefinition Width="20*"></ColumnDefinition>
+                    <ColumnDefinition Width="20*"></ColumnDefinition>
+                    <ColumnDefinition Width="20*"></ColumnDefinition>
+                    <ColumnDefinition Width="20*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40"></RowDefinition>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" BorderThickness="3" Grid.Column="0" Background="DarkSlateGray">
+                    <TextBlock FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text="NICKNAME" Foreground="White"/>
+                </Border>
+                <Border Grid.Row="0" BorderThickness="3" Grid.Column="1" Background="DarkSlateGray">
+                    <TextBlock FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text="MONEY" Foreground="White"/>
+                </Border>
+                <Border Grid.Row="0" BorderThickness="3" Grid.Column="2" Background="DarkSlateGray">
+                    <TextBlock FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text="GAMES" Foreground="White"/>
+                </Border>
+                <Border Grid.Row="0" BorderThickness="3" Grid.Column="3" Background="DarkSlateGray">
+                    <TextBlock FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text="LAST PLAYED" Foreground="White"/>
+                </Border>
+                <Border Grid.Row="0" BorderThickness="3" Grid.Column="4" Background="DarkSlateGray">
+                    <TextBlock FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center" Text="POINTS" Foreground="White"/>
+                </Border>
+            </Grid>
+        </ScrollViewer>
+    </ContentDialog.Content>
+</ContentDialog>
+

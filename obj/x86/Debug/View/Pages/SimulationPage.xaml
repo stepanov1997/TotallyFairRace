@@ -1,0 +1,25 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="TotallyFairRace.View.Pages.SimulationPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+                                                           >
+
+    <ScrollViewer>
+        <Grid x:ConnectionId='2' x:Name="MainGrid" Height="595">
+            <Grid.Background>
+                <ImageBrush Stretch="Fill" ImageSource="../../Assets/pozadina.jpg"/>
+            </Grid.Background>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="20*"></ColumnDefinition>
+                <ColumnDefinition Width="60*"></ColumnDefinition>
+                <ColumnDefinition Width="20*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Totally fair race" Grid.Row="0" FontSize="36" FontFamily="Stencil" TextAlignment="Center" TextWrapping="WrapWholeWords" Foreground="#FFC5C5C5" VerticalAlignment="Top" Grid.ColumnSpan="3"/>
+            <Button x:ConnectionId='3' Grid.Column="1" Name="GObutton" Content="GO!"                       />
+        </Grid>
+    </ScrollViewer>
+</Page>
+

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\stepa\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\stepa\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_TotallyFairRace.-1146754358.00" t="ExcludeRecursive" />
+    <e p="C:\Users\stepa\Desktop\TotallyFairRace" t="IncludeRecursive">
+      <e p="App.xaml" t="Include" />
+      <e p="App.xaml.cs" t="Include" />
+      <e p="Assets" t="Include">
+        <e p="CarPics" t="Include">
+          <e p="car_black.png" t="Include" />
+          <e p="car_blue.png" t="Include" />
+          <e p="car_brown.png" t="Include" />
+          <e p="car_green.png" t="Include" />
+          <e p="car_orange.png" t="Include" />
+          <e p="car_pink.png" t="Include" />
+          <e p="car_purple.png" t="Include" />
+          <e p="car_red.png" t="Include" />
+          <e p="car_white.png" t="Include" />
+          <e p="car_yellow.png" t="Include" />
+        </e>
+        <e p="LockScreenLogo.scale-200.png" t="Include" />
+        <e p="menu.jpeg" t="Include" />
+        <e p="next.png" t="Include" />
+        <e p="road.jpg" t="Include" />
+        <e p="SplashScreen.scale-200.png" t="Include" />
+        <e p="Square150x150Logo.scale-200.png" t="Include" />
+        <e p="Square44x44Logo.scale-200.png" t="Include" />
+        <e p="Square44x44Logo.targetsize-24_altform-unplated.png" t="Include" />
+        <e p="StoreLogo.png" t="Include" />
+        <e p="Styles of Beyond - Nine Thou (Superstars Remix).mp3" t="Include" />
+        <e p="Wide310x150Logo.scale-200.png" t="Include" />
+      </e>
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controller" t="Include">
+        <e p="Race.cs" t="Include" />
+      </e>
+      <e p="Model" t="Include">
+        <e p="Auto.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Package.appxmanifest" t="Include" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Default.rd.xml" t="Include" />
+      </e>
+      <e p="TotallyFairRace.csproj" t="IncludeRecursive" />
+      <e p="TotallyFairRace.sln" t="IncludeFlat" />
+      <e p="View" t="Include">
+        <e p="CarRaceBar.xaml" t="Include" />
+        <e p="CarRaceBar.xaml.cs" t="Include" />
+        <e p="MainPage.xaml" t="Include" />
+        <e p="MainPage.xaml.cs" t="Include" />
+        <e p="WelcomePage.xaml" t="Include" />
+        <e p="WelcomePage.xaml.cs" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>
