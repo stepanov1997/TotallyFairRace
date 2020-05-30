@@ -1,1 +1,1 @@
-C:\Users\stepa\Desktop\Trkanje\Trkanje.csproj;x64
+C:\Users\stepa\Fakultet\Projekti\Interakcija čovjek-računar\TotallyFairRace\TotallyFairRace.csproj;x64

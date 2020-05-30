@@ -1,19 +1,63 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="08d0bd29-0636-4d0b-9d5e-7ff53d3d7c30" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="08d0bd29-0636-4d0b-9d5e-7ff53d3d7c30" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TotallyFairRace/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TotallyFairRace/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TotallyFairRace/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TotallyFairRace/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TotallyFairRace/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TotallyFairRace/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/FunctionTest/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/FunctionTest/FunctionTest.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/FunctionTest/TestFunction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/FunctionTest/host.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/MapReduceTest.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/MapReduceTest/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/MapReduceTest/Mapper.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/MapReduceTest/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/MapReduceTest/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/Reducer/App.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/Reducer/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/Reducer/Properties/AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/Reducer/Reducer.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DistributedProgramming/MapReduceTest/script.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/TotallyFairRace.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TotallyFairRace.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/TotallyFairRace.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TotallyFairRace.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/TotallyFairRace.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/TotallyFairRace.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/App.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/App.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/App.g.i.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/App.g.i.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/App.xaml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/App.xaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/App.xbf" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/App.xbf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/ProjectArchitectures.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/ProjectArchitectures.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/ResourceHandlingTask.state" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/ResourceHandlingTask.state" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/XamlSaveStateFile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/XamlSaveStateFile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/XamlTypeInfo.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/XamlTypeInfo.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/embed/embed.resfiles" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/embed/embed.resfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/embed/embed.resfiles.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/embed/embed.resfiles.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/filtered.layout.resfiles" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/filtered.layout.resfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/filtered.layout.resfiles.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/filtered.layout.resfiles.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/pri.resfiles" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/pri.resfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/pri.resfiles.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/pri.resfiles.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/qualifiers.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/qualifiers.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/qualifiers.txt.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/qualifiers.txt.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/resources.resfiles" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/resources.resfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/resources.resfiles.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/resources.resfiles.intermediate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/unfiltered.layout.resfiles" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/unfiltered.layout.resfiles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/x64/Debug/unfiltered.layout.resfiles.intermediate" beforeDir="false" afterPath="$PROJECT_DIR$/obj/x64/Debug/unfiltered.layout.resfiles.intermediate" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/View/WelcomePage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/View/Pages/SimulationPage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/View/Pages/InputNicknamePage.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/View/Pages/InputNicknamePage.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/View/Pages/PlayerMenu.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Controller/Race.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/View/CarRaceBar.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Model/Auto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/View/CarRaceBar.xaml.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -25,30 +69,24 @@
     </option>
   </component>
   <component name="ProjectId" id="1TDR1SFaETlEHl7spRDzZNWplW1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="http.certificates" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="CodeLensConfigurable" />
   </component>
   <component name="RunManager">
     <configuration name="UWP Default" type="UwpProject" factoryName="UWP">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/TotallyFairRace.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <method v="2">
-        <option name="Build" enabled="true" />
+        <option name="Build" />
       </method>
     </configuration>
   </component>
@@ -63,16 +101,43 @@
       <option name="presentableId" value="Default" />
       <updated>1572992464876</updated>
       <workItem from="1572992470691" duration="887000" />
+      <workItem from="1590019192506" duration="562000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590019746639">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1590019746639" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1590019757735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1590019757735" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1590019757735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1590019757735" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1590019757735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1590019757735" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1590019757735">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1590019757735" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1590019505941">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1590019505941" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

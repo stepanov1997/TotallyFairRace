@@ -1,27 +1,30 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\stepa\.Rider2019.2\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\stepa\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_TotallyFairRace.-1146754358.00" t="ExcludeRecursive" />
+    <e p="C:\Users\stepa\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\stepa\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_TotallyFairRace.-1146754358.00" t="ExcludeRecursive" />
     <e p="C:\Users\stepa\Desktop\TotallyFairRace" t="IncludeRecursive">
+      <e p=".editorconfig" t="Include" />
+      <e p="Accounts" t="Include" />
       <e p="App.xaml" t="Include" />
       <e p="App.xaml.cs" t="Include" />
       <e p="Assets" t="Include">
+        <e p="0.png" t="Include" />
+        <e p="back.png" t="Include" />
         <e p="CarPics" t="Include">
-          <e p="car_black.png" t="Include" />
-          <e p="car_blue.png" t="Include" />
-          <e p="car_brown.png" t="Include" />
-          <e p="car_green.png" t="Include" />
-          <e p="car_orange.png" t="Include" />
-          <e p="car_pink.png" t="Include" />
-          <e p="car_purple.png" t="Include" />
-          <e p="car_red.png" t="Include" />
-          <e p="car_white.png" t="Include" />
-          <e p="car_yellow.png" t="Include" />
+          <e p="car.svg" t="Include" />
         </e>
+        <e p="gamer.png" t="Include" />
         <e p="LockScreenLogo.scale-200.png" t="Include" />
         <e p="menu.jpeg" t="Include" />
         <e p="next.png" t="Include" />
+        <e p="pehar.png" t="Include" />
+        <e p="pehar_white.png" t="Include" />
+        <e p="pehar_whitered.png" t="Include" />
+        <e p="PlayerNames" t="Include">
+          <e p="names.txt" t="Include" />
+        </e>
+        <e p="pozadina.jpg" t="Include" />
         <e p="road.jpg" t="Include" />
         <e p="SplashScreen.scale-200.png" t="Include" />
         <e p="Square150x150Logo.scale-200.png" t="Include" />
@@ -29,16 +32,73 @@
         <e p="Square44x44Logo.targetsize-24_altform-unplated.png" t="Include" />
         <e p="StoreLogo.png" t="Include" />
         <e p="Styles of Beyond - Nine Thou (Superstars Remix).mp3" t="Include" />
+        <e p="TrafficLights" t="Include">
+          <e p="green.png" t="Include" />
+          <e p="green.svg" t="Include" />
+          <e p="red.png" t="Include" />
+          <e p="red.svg" t="Include" />
+          <e p="yellow.png" t="Include" />
+          <e p="yellow.svg" t="Include" />
+        </e>
         <e p="Wide310x150Logo.scale-200.png" t="Include" />
       </e>
       <e p="bin" t="ExcludeRecursive" />
+      <e p="ClassDiagram.cd" t="Include" />
+      <e p="CodeMap1.dgml" t="Include" />
       <e p="Controller" t="Include">
         <e p="Race.cs" t="Include" />
+        <e p="Scoring.cs" t="Include" />
       </e>
+      <e p="GlobalSuppressions.cs" t="Include" />
       <e p="Model" t="Include">
-        <e p="Auto.cs" t="Include" />
+        <e p="Account.cs" t="Include" />
+        <e p="Car.cs" t="Include" />
+        <e p="GameHistory.cs" t="Include" />
+        <e p="RankCollection.cs" t="Include" />
       </e>
-      <e p="obj" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="x64" t="Include">
+          <e p="Debug" t="Include">
+            <e p="App.g.cs" t="Include" />
+            <e p="App.g.i.cs" t="Include" />
+            <e p="View" t="Include">
+              <e p="ContentDialogs" t="Include">
+                <e p="AfterGameDialog.g.cs" t="Include" />
+                <e p="AfterGameDialog.g.i.cs" t="Include" />
+                <e p="PregameDialog.g.cs" t="Include" />
+                <e p="PregameDialog.g.i.cs" t="Include" />
+                <e p="ProfileInfoDialog.g.cs" t="Include" />
+                <e p="ProfileInfoDialog.g.i.cs" t="Include" />
+                <e p="RankListDialog.g.cs" t="Include" />
+                <e p="RankListDialog.g.i.cs" t="Include" />
+              </e>
+              <e p="Controls" t="Include">
+                <e p="CarColorPicker.g.cs" t="Include" />
+                <e p="CarColorPicker.g.i.cs" t="Include" />
+                <e p="CarRaceBar.g.cs" t="Include" />
+                <e p="CarRaceBar.g.i.cs" t="Include" />
+                <e p="GameInfoControl.g.cs" t="Include" />
+                <e p="GameInfoControl.g.i.cs" t="Include" />
+                <e p="GamesHistoryControl.g.cs" t="Include" />
+                <e p="GamesHistoryControl.g.i.cs" t="Include" />
+                <e p="RaceScaleSlider.g.cs" t="Include" />
+                <e p="RaceScaleSlider.g.i.cs" t="Include" />
+              </e>
+              <e p="Pages" t="Include">
+                <e p="InputNicknamePage.g.cs" t="Include" />
+                <e p="InputNicknamePage.g.i.cs" t="Include" />
+                <e p="PlayerMenu.g.cs" t="Include" />
+                <e p="PlayerMenu.g.i.cs" t="Include" />
+                <e p="SimulationPage.g.cs" t="Include" />
+                <e p="SimulationPage.g.i.cs" t="Include" />
+                <e p="WelcomePage.g.cs" t="Include" />
+                <e p="WelcomePage.g.i.cs" t="Include" />
+              </e>
+            </e>
+            <e p="XamlTypeInfo.g.cs" t="Include" />
+          </e>
+        </e>
+      </e>
       <e p="Package.appxmanifest" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Properties" t="Include">
@@ -47,13 +107,43 @@
       </e>
       <e p="TotallyFairRace.csproj" t="IncludeRecursive" />
       <e p="TotallyFairRace.sln" t="IncludeFlat" />
+      <e p="TotallyFairRace.snk" t="Include" />
+      <e p="Util" t="Include">
+        <e p="NamesCollection.cs" t="Include" />
+      </e>
       <e p="View" t="Include">
-        <e p="CarRaceBar.xaml" t="Include" />
-        <e p="CarRaceBar.xaml.cs" t="Include" />
-        <e p="MainPage.xaml" t="Include" />
-        <e p="MainPage.xaml.cs" t="Include" />
-        <e p="WelcomePage.xaml" t="Include" />
-        <e p="WelcomePage.xaml.cs" t="Include" />
+        <e p="ContentDialogs" t="Include">
+          <e p="AfterGameDialog.xaml" t="Include" />
+          <e p="AfterGameDialog.xaml.cs" t="Include" />
+          <e p="PregameDialog.xaml" t="Include" />
+          <e p="PregameDialog.xaml.cs" t="Include" />
+          <e p="ProfileInfoDialog.xaml" t="Include" />
+          <e p="ProfileInfoDialog.xaml.cs" t="Include" />
+          <e p="RankListDialog.xaml" t="Include" />
+          <e p="RankListDialog.xaml.cs" t="Include" />
+        </e>
+        <e p="Controls" t="Include">
+          <e p="CarColorPicker.xaml" t="Include" />
+          <e p="CarColorPicker.xaml.cs" t="Include" />
+          <e p="CarRaceBar.xaml" t="Include" />
+          <e p="CarRaceBar.xaml.cs" t="Include" />
+          <e p="GameInfoControl.xaml" t="Include" />
+          <e p="GameInfoControl.xaml.cs" t="Include" />
+          <e p="GamesHistoryControl.xaml" t="Include" />
+          <e p="GamesHistoryControl.xaml.cs" t="Include" />
+          <e p="RaceScaleSlider.xaml" t="Include" />
+          <e p="RaceScaleSlider.xaml.cs" t="Include" />
+        </e>
+        <e p="Pages" t="Include">
+          <e p="InputNicknamePage.xaml" t="Include" />
+          <e p="InputNicknamePage.xaml.cs" t="Include" />
+          <e p="PlayerMenu.xaml" t="Include" />
+          <e p="PlayerMenu.xaml.cs" t="Include" />
+          <e p="SimulationPage.xaml" t="Include" />
+          <e p="SimulationPage.xaml.cs" t="Include" />
+          <e p="WelcomePage.xaml" t="Include" />
+          <e p="WelcomePage.xaml.cs" t="Include" />
+        </e>
       </e>
     </e>
   </component>

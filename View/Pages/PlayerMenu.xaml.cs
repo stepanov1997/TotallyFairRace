@@ -28,7 +28,14 @@ namespace TotallyFairRace.View.Pages
                 HelloText.Text += Player.Nickname;
                 return;
             }
-            if (!await Account.DeSerializeNow()) Account.RankCollection = new RankCollection();
+            try
+            {
+                if (!await Account.DeSerializeNow()) Account.RankCollection = new RankCollection();
+            }
+            catch(Exception ex)
+            {
+                Account.RankCollection = new RankCollection();
+            }
             Player = await Account.CreateAccount(e.Parameter as string ?? "Player");
             HelloText.Text += Player.Nickname;
         }
