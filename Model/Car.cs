@@ -142,8 +142,8 @@ namespace TotallyFairRace.Model
                 await CoreApplication.MainView.CoreWindow.Dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
                 {
                     CarBar.CurrentPosition = NumberOfKilometers;
-                    Description.Text = $"{Nickname}" + Environment.NewLine +
-                                       $"{Math.Round(Speed, 2)} km/s" + Environment.NewLine;
+                    Description.Text = $"{Nickname}"; //+ Environment.NewLine +
+                    //$"{Math.Round(Speed, 2)} km/s" + Environment.NewLine;
                 });
                 NumberOfKilometers += Speed / 3600;
             }
